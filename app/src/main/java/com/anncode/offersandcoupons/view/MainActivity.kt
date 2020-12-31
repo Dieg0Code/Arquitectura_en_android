@@ -1,10 +1,12 @@
-package com.anncode.offersandcoupons
+package com.anncode.offersandcoupons.view
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.v7.widget.LinearLayoutManager
 import android.support.v7.widget.RecyclerView
 import android.util.Log
+import com.anncode.offersandcoupons.model.Coupon
+import com.anncode.offersandcoupons.R
 import com.anncode.offersandcoupons.model.ApiAdapter
 import com.google.gson.JsonElement
 import com.google.gson.JsonObject
