@@ -5,7 +5,7 @@ import com.anncode.offersandcoupons.model.Coupon
 interface CouponPresenter {
 
     //View
-    fun showCoupons(coupons: ArrayList<Coupon>)
+    fun showCoupons(coupons: ArrayList<Coupon>?)
 
     //Interactor
     fun getCoupons()

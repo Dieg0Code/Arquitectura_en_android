@@ -8,5 +8,5 @@ interface CouponView {
     fun getCoupons()
 
     //View
-    fun showCoupons(coupons: ArrayList<Coupon>)
+    fun showCoupons(coupons: ArrayList<Coupon>?)
 }
